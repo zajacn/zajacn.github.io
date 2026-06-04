@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nataliazajac.github.io/sitemap.xml
+Sitemap: https://zajacn.github.io/sitemap.xml
