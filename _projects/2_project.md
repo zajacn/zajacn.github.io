@@ -1,81 +1,50 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: Evolutionary Genomics of the Mediterranean Wall Lizards
+importance: 1
+img: assets/img/Podarcis_map.png
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Wall Lizards are one of the most abundant and charismatic animals of the Mediterranean, unique not only because of their striking phenotypic variability but also because of their interesting evolutionary history. It is a fantastic system to study convergent evolution, how variation is generated and maintained, and  - what interests me the most - genomics signature of hybridization and introgression.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ <img src="/assets/images/projects/Podarcis_map.png" alt="Screenshot" style="width:100%; border-radius:8px;">
+ <p>*images from https://www.eurolizards.com/* *map generated using data from https://www.gbif.org/*</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="width:50%; padding:10px;">
+      <img src="/assets/images/projects/pmuralismitonuc.png" alt="Screenshot" style="width:65%; border-radius:8px;">
+    </td>
+    <td style="width:50%; padding:10px;">
+      <p>I began my journey with the Mediterranean Wall Lizards some time ago: During my bachelor’s thesis at University of Oxford, I studied patterns of mitonuclear discordance in a hybrid zone between two lineages of <em>Podarcis muralis</em>. My work contributed to While et al.(2015) {% cite while2015sexual %} where we showed that divergence in male secondary sexual characters between two lineages of the common wall lizard (<em>Podarcis muralis</em>) gave rise to strong asymmetries in male competitive ability and mating success, resulting in asymmetric hybridisation upon secondary contact.
+      </p>
+    </td>
+  </tr>
+</table>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="width:50%; padding:10px;">
+      <p>
+        Recently I had a chance to contribute to a book chapter where we evaluate the genomic resources available for Squamates. Podarcis really stand out! There are 15 high quality chromosome level reference genomes, majority of which have been assembled as part of the Tree of Life Program. {% cite feiner2025population %}
+      </p>
+    </td>
+    <td style="width:50%; padding:10px;">
+      <img src="/assets/images/projects/ReptileGenomics.jpg" alt="Screenshot" style="width:100%; border-radius:8px;">
+    </td>
+  </tr>
+</table>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<p>In 2021 there was a paper that unraveled the remarkably entangled evolutionary history of wall lizards by sequencing genomes of 34 major lineages covering 26 species (see Yang, W., Feiner, N., Pinho, C. et al. Extensive introgression and mosaic genomes of Mediterranean endemic lizards. Nat Commun 12, 2762 (2021). https://doi.org/10.1038/s41467-021-22949-9). The work used a reference genome of <em>P.muralis</em>.</p>
 
-{% raw %}
+<p>Due to developments in pangenomic tools and amazing genomic resources available for Podarcis we can now move beyond small scale variation and reference-biased approaches in Podarcis comparative genomics!</p>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<p>So in my work now I am building a <strong>super-pangenome</strong> of 15 species of Podarcis in order to understand changes in not only genome composition but also genome architecture associated with this reticulate pattern of evolution. I am specifically interested in <strong>large structural variation</strong>, <strong>highly divergent regions</strong> and <strong>regions in the genome with a signature of genetic exchange</strong>. I work in the Feiner-Uller group and in collaboration with Joana Meier. Exciting results coming soon!</p>
 
-{% endraw %}
+
+
+

@@ -1,81 +1,30 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Method and Tool benchmarking
+importance: 2
 category: work
+img: assets/img/benchmarking_chatgpt.png
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A very important aspect of studying evolutionary history of organisms using genomic data is using the right type of data and tools and understanding the data well enough to not interpret artefacts as biological information. I had the opportunity to learn that well while working as a bioinformatician at the Functional Genomics Center Zürich, a core facility shared between University of Zurich and ETH Zurich. Working in a team of bioinformaticians from a wide variety of fields both in genomics and proteomics and being in close contact with people working in the wet lab allowed me to get a unique perspective. I had a chance to participate in a range of benchmarking studies - I find that type of work very important.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Here I showcase two studies.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<h3>Long vs short reads in single cell RNAseq </h3>
+<img src="/assets/images/projects/scRNAseq.jpg" alt="Screenshot" style="width:80%; border-radius:8px;">
+<p>Single-cell RNA sequencing is used for profiling gene expression differences between cells.It can be performed with short reads, which provide high-throughput and high-quality information at the gene level, or with long reads, which provide isoform resolution via preserving full-length transcripts. It is, however, unclear how comparable the data is between the two methods.  </p> 
+<p>We investigated the types of bias introduced at the library preparation and the bioinformatic processing steps on the transcripts recovered from long- and short-read sequencing, and the effects of filtering, enabled by sequencing of full-length transcripts, on gene expression.For each sample, we sequenced the same 10x Genomics 3′ complementary DNA (cDNA) using Illumina short reads and Pacific Biosciences long reads and cross-compared each molecule matched through cell barcode and unique molecular identifier.</p>
+<p>We find that both methods render highly comparable results and recover a large proportion of cells and transcripts. However, platform-dependent cDNA library processing and data analysis steps introduce biases. Short-read sequencing provided higher sequencing depth, but long-read sequencing allowed for retaining transcripts shorter than 500 bp and for removal of degraded cDNA contaminated by template switching oligos. Filtering of artefacts, identifiable only from full-length transcripts, reduces gene count correlation between the two methods.{% cite zajac2025comparison %}</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<h3> The impact of PCR duplication on RNAseq data generated with 4 different sequencers</h3>
+ <div class="text-center">
+  <img src="/assets/images/projects/RNAseq4seq.webp" alt="Screenshot" style="width:80%; border-radius:8px;">
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<p>Transcriptome sequencing (RNA-seq) is a powerful technology for gene expression profiling. Selection of optimal parameters for cDNA library generation is crucial for acquisition of high-quality data. In this study, we investigate the impact of the amount of RNA and the number of PCR cycles used for sample amplification on the rate of PCR duplication and, in consequence, on the RNA-seq data quality.</p> 
+<p>We sequenced the data on four short-read sequencing platforms: <strong>Illumina NovaSeq 6000</strong>, <strong>Illumina NovaSeq X</strong>, <strong>Element Biosciences AVITI</strong>, and <strong>Singular Genomics G4</strong>. The native Illumina libraries were converted for sequencing on AVITI and G4 to assess the effect of library conversion, containing additional PCR cycles. </p>
+<p>We find that the rate of PCR duplicates depends on the combined effect of RNA input material and the number of PCR cycles used for amplification. For input amounts lower than 125 ng, 34–96% of reads were discarded via deduplication with the percentage increasing with lower input amount and decreasing with increasing PCR cycles. The reduced read diversity for low input amounts leads to fewer genes detected and increased noise in expression counts.</p>
+<p>Data generated with each of the four sequencing platforms presents similar associations between starting material amount and the number of PCR cycles on PCR duplicates, a similar number of detected genes, and comparable gene expression profiles.{% cite zajac2025impact %}</p>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
