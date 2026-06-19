@@ -54,7 +54,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "teachings-metagenomics-course-at-fgcz",
           title: 'Metagenomics Course at FGCZ',
-          description: "This 3-day data analysis course covered data analysis of 16S rRNA, shotgun metagenomics and shotgun metatranscriptomics. It included both theory and practical hands on exercises. The students learnt to QC their sequencing data, run state-of-the-art software (QIIME2, metagenome-atlas, samsa2) and analyse the outputs by creating diagnostic figures.",
+          description: "I taught this 3-day data analysis course from 2021-2024. The course covered data analysis of 16S rRNA, shotgun metagenomics and shotgun metatranscriptomics. It included both theory and practical hands on exercises. The students learnt to QC their sequencing data, run state-of-the-art software (QIIME2, metagenome-atlas, samsa2) and analyse the outputs by creating diagnostic figures.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/metagenomics-course-at-FGCZ/";
             },},{id: "teachings-pangenomics",
@@ -64,7 +64,7 @@ ninja.data = [{
               window.location.href = "/teachings/pangenomics-course-EMBO/";
             },},{id: "teachings-research-cycle-in-genomics",
           title: 'Research Cycle in Genomics',
-          description: "The 4 week block course for Master&#39;s and Bachelor students from UZH and ETH, led by me and Dr. Jonas Grossmann from the Functional Genomics Center Zurich.",
+          description: "I taught this course from 2021 to 2024. The 4 week block course for Master&#39;s and Bachelor students from UZH and ETH was led by me and Dr. Jonas Grossmann from the Functional Genomics Center Zurich.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/research-cycle-in-genomics-at-UZH/";
             },},{
