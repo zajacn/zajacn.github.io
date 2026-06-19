@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Metagenomics Course at FGCZ
-description: This 3-day data analysis course covered data analysis of 16S rRNA, shotgun metagenomics and shotgun metatranscriptomics. It included both theory and practical hands on exercises. The students learnt to QC their sequencing data, run state-of-the-art software (QIIME2, metagenome-atlas, samsa2) and analyse the outputs by creating diagnostic figures.
+description: I taught this 3-day data analysis course from 2021-2024. The course covered data analysis of 16S rRNA, shotgun metagenomics and shotgun metatranscriptomics. It included both theory and practical hands on exercises. The students learnt to QC their sequencing data, run state-of-the-art software (QIIME2, metagenome-atlas, samsa2) and analyse the outputs by creating diagnostic figures.
 year: 2024
 term: Spring and Autumn
 location: Functional Genomics Center Zurich

@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Research Cycle in Genomics
-description: The 4 week block course for Master's and Bachelor students from UZH and ETH, led by me and Dr. Jonas Grossmann from the Functional Genomics Center Zurich.
+description: I taught this course from 2021 to 2024. The 4 week block course for Master's and Bachelor students from UZH and ETH was led by me and Dr. Jonas Grossmann from the Functional Genomics Center Zurich.
 period: 2024
 term: Fall
 location: Functional Genomics Center Zurich
