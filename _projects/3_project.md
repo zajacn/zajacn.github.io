@@ -7,9 +7,11 @@ img: assets/img/benchmarking_chatgpt.png
 related_publications: true
 ---
 
-A very important aspect of studying evolutionary history of organisms using genomic data is using the right type of data and tools and understanding the data well enough to not interpret artefacts as biological information. I had the opportunity to learn that well while working as a bioinformatician at the Functional Genomics Center Zürich, a core facility shared between University of Zurich and ETH Zurich. Working in a team of bioinformaticians from a wide variety of fields both in genomics and proteomics and being in close contact with people working in the wet lab allowed me to get a unique perspective. I had a chance to participate in a range of benchmarking studies - I find that type of work very important.
+A very important aspect of studying evolutionary history of organisms using genomic data is using the right type of data and tools and understanding the data well enough not to interpret artefacts as biological information. I had the opportunity to learn that well while working as a bioinformatician at the Functional Genomics Center Zürich, a core facility shared between University of Zurich and ETH Zurich. 
 
-Here I showcase two studies.
+At FGCZ I performed data analysis for research projects in the topics of population genomics, biodiversity genomics, experimental evolution and medical genomics. I specialized on long read sequencing (mostly PacBio but also Oxford Nanopore), bulk RNA sequencing, pooled sequencing (Pool-seq), 16S rRNA sequencing and shotgun metagenomics/metatranscriptomics. I have also been a contributor to the ezRun package: https://github.com/uzh/ezRun.
+
+Working in a team of bioinformaticians from a wide variety of fields both in genomics and proteomics and being in close contact with people working in the wet lab allowed me to get a unique perspective. I had a chance to participate in a range of benchmarking studies - I find that type of work very important. We published two internal studies elucidating how technical sequencing decisions can influence biological conclusions.
 
 <h3>Long vs short reads in single cell RNAseq </h3>
 <img src="/assets/images/projects/scRNAseq.jpg" alt="Screenshot" style="width:80%; border-radius:8px;">

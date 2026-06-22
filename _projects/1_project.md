@@ -25,7 +25,7 @@ Here I showcase two studies.
       <p>In this study we de novo sequenced and annotated genome of the parasitic trematode <em>Atriophallophorus winterbourni</em>. We then followed up with its comparison to other parasitic worms. </p>
       <p> - First, we reconstructed the species phylogeny, and dated the split of <em>A. winterbourni</em> from the Opisthorchiata suborder to approximately 237.4 Ma (±120.4 Myr). </p>
       <p> - We then addressed the question of which expanded gene families and gained genes are potentially involved in adaptation to parasitism. We used hierarchical orthologous groups to reconstruct three ancestral genomes on the phylogeny leading to <em>A. winterbourni</em> and performed a GO (Gene Ontology) enrichment analysis of the gene composition of each ancestral genome, allowing us to characterize the subsequent genomic changes. </p>
-      <p>We found 13 gene families in A. winterbourni to have had more than ten genes arising through these recent duplications; all of which have functions potentially relating to host behavioral manipulation, host tissue penetration, and hiding from host immunity through antigen presentation. We identified several families with genes evolving under positive selection {% cite zajac2021gene %} </p>
+      <p>We found 13 gene families in A. winterbourni to have had more than ten genes arising through these recent duplications; all of which have functions potentially relating to host behavioral manipulation, host tissue penetration, and hiding from host immunity through antigen presentation. We identified several families with genes evolving under positive selection {% cite zajac2021gene %}
       </p>
     </td>
   </tr>

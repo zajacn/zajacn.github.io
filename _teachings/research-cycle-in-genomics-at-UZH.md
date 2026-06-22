@@ -33,7 +33,7 @@ I taught the course together with Dr. Jonas Grossmann from 2021-2024. The course
 
 ## We got a grant
 
-In 2023 we received a grant allowing us to obtain methylation data for Staphylococcus aureus and expand the course resources.
+In 2023 we received a grant allowing us to obtain methylation data for <em>Staphylococcus aureus</em> and expand the course resources.
 
 ## We featured in the UZH news!
 

@@ -23,8 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am a computational biologist interested in the evolution of genome architecture and genome function. I am currently a postdoctoral researcher at the Max Planck Institute for Evolutionary Biology in Plön, Germany. In my research, I use pangenomics and comparative genomics to investigate genome architecture diversity in Mediterranean Wall Lizards and what that can tell us about their evolutionary history. In particular, I focus on genome-wide signatures of hybridization.
+Hi! I am a computational biologist interested in the evolution of genome architecture and genome function. I am currently a postdoctoral researcher at the Max Planck Institute for Evolutionary Biology in Plön, Germany, in the team of Nathalie Feiner. See https://feiner-uller-group.se/ for more info. 
 
+In my research, I use pangenomics and comparative genomics to investigate genome architecture diversity in Mediterranean Wall Lizards and what that can tell us about their evolutionary history. In particular, I focus on genome-wide signatures of hybridization.
 
 In my previous research I explored the the genomic signature of macro-and microevolutionary processes in a trematode parasite <em>Atriophallophrus winterbourni</em> and I worked as genome informatics expert at the Functional Genomics Center Zurich where I worked on a wide variety of projects and got to explore genome architecture and genome function from many different perspectives and in many different organisms.
 
