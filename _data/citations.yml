@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-07-15'
 papers:
   izkk2sgAAAAJ:2osOgNQ5qMEC:
     citations: 146
     title: Sexual selection drives asymmetric introgression in wall lizards
     year: '2015'
   izkk2sgAAAAJ:4DMP91E08xMC:
-    citations: 1
+    citations: 2
     title: Metatranscriptomic Insights into Bacterial Activity, Virulence, and Antimicrobial Resistance in the Root Canal Microbiome of Acute Apical Abscesses
     year: '2026'
   izkk2sgAAAAJ:9ZlFYXVOiuMC:
@@ -18,11 +18,11 @@ papers:
     title: "Loss of genetic diversity and increased embryonic mortality in non\u2010native lizard populations"
     year: '2016'
   izkk2sgAAAAJ:IjCSPb-OGe4C:
-    citations: 0
+    citations: 1
     title: 'The genome of the trematode parasite Atriophallophorus winterbourni, Blasco-Costa et al., 2019: A macro-and microevolutionary perspective'
     year: '2021'
   izkk2sgAAAAJ:LkGwnXOMwfcC:
-    citations: 10
+    citations: 13
     title: Assessing different next-generation sequencing technologies for wastewater-based epidemiology
     year: '2024'
   izkk2sgAAAAJ:M3ejUd6NZC8C:
@@ -34,7 +34,7 @@ papers:
     title: The cystic fibrosis transmembrane regulator controls tolerogenic responses to food allergens in mice and humans
     year: '2024'
   izkk2sgAAAAJ:Tyk-4Ss8FVUC:
-    citations: 7
+    citations: 8
     title: Phylogeography and cryptic species structure of a locally adapted parasite in New Zealand
     year: '2022'
   izkk2sgAAAAJ:ULOm3_A8WrAC:
@@ -62,7 +62,7 @@ papers:
     title: "Intervertebral disc microbiome in Modic changes: Lack of result replication underscores the need for a consensus in low\u2010biomass microbiome analysis"
     year: '2024'
   izkk2sgAAAAJ:_kc_bZDykSQC:
-    citations: 3
+    citations: 5
     title: Heterogeneous and novel transcript expression in single cells of patient-derived clear cell renal cell carcinoma organoids
     year: '2025'
   izkk2sgAAAAJ:d1gkVwhDpl0C:
