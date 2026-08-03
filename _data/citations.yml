@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-03'
 papers:
   izkk2sgAAAAJ:2osOgNQ5qMEC:
-    citations: 146
+    citations: 143
     title: Sexual selection drives asymmetric introgression in wall lizards
     year: '2015'
   izkk2sgAAAAJ:4DMP91E08xMC:
     citations: 2
-    title: Metatranscriptomic Insights into Bacterial Activity, Virulence, and Antimicrobial Resistance in the Root Canal Microbiome of Acute Apical Abscesses
+    title: Metatranscriptomic insights into bacterial activity, virulence, and antimicrobial resistance in the root canal microbiome of acute apical abscesses
     year: '2026'
   izkk2sgAAAAJ:9ZlFYXVOiuMC:
     citations: 0
@@ -15,7 +15,7 @@ papers:
     year: '2026'
   izkk2sgAAAAJ:9yKSN-GCB0IC:
     citations: 18
-    title: Loss of genetic diversity and increased embryonic mortality in non-native lizard populations
+    title: "Loss of genetic diversity and increased embryonic mortality in non\u2010native lizard populations"
     year: '2016'
   izkk2sgAAAAJ:IjCSPb-OGe4C:
     citations: 1
@@ -46,7 +46,7 @@ papers:
     title: "A new species of Atriophallophorus Deblock & Ros\xE9, 1964 (Trematoda: Microphallidae) described from in vitro-grown adults and metacercariae from Potamopyrgus antipodarum (Gray \u2026"
     year: '2020'
   izkk2sgAAAAJ:W7OEmFMy1HYC:
-    citations: 8
+    citations: 9
     title: The impact of PCR duplication on RNAseq data generated using NovaSeq 6000, NovaSeq X, AVITI, and G4 sequencers
     year: '2025'
   izkk2sgAAAAJ:Wp0gIr-vW9MC:
@@ -75,7 +75,7 @@ papers:
     year: '2026'
   izkk2sgAAAAJ:qxL8FJ1GzNcC:
     citations: 1
-    title: Population and Evolutionary Genomics of Lizards and Snakes
+    title: Population and evolutionary genomics of lizards and snakes
     year: '2025'
   izkk2sgAAAAJ:u-x6o8ySG0sC:
     citations: 18
